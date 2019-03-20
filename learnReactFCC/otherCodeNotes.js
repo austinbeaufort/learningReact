@@ -35,3 +35,40 @@
 // }
 
 // export default ListItems;
+
+
+// function App() {
+//     const firstName = "Bob";
+//     const lastName = "Ziroll";
+
+//     return (
+//         <h1>Hello {`${firstName} ${lastName}`}!</h1> // curly braces signify JavaScript
+//     )
+// }
+
+
+// function App() {
+//     const date = new Date();
+//     const hours = date.getHours()
+//     let timeofDay;
+
+//     if (hours < 12) {
+//         timeOfDay = "morning";
+//     }
+//     else if (hours >= 12 && hours < 17) {
+//         timeOfDay = 'afternoon';
+//     }
+//     else {
+//         timeofDay = 'night;'
+//     }
+
+//     const styles = {
+//         color: '#FF8C00',
+//         backgroundColor: '#FF2D00',
+//         fontSize: "200px"
+//     }
+
+//     return (
+//         <h1 style={styles}>Good {timeOfDay}!</h1>
+//     )
+// }

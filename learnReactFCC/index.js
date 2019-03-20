@@ -36,23 +36,16 @@
 
 // import React from 'react';
 // import ReactDOM from 'react-dom';
+// import MyInfo from './components/MyInfo';
 
-// function MyInfo() {
-//   return (
-//     <div>
-//       <h1 style={{color: 'green'}}>Austin Beaufort</h1>
-//       <p> Hi I'm Austin, a Web Developer from Cleveland, Ohio!!</p>
-//       <h3 style={{color: 'green'}}> Top 3 Places to Visit </h3>
-//       <ul>
-//         <li> Paris, France </li>
-//         <li> London, UK </li>
-//         <li> Grand Canyon, AZ </li>
-//       </ul>
-//     </div>
-//   );
-// }
 
 // ReactDOM.render(
 //   <MyInfo />,
 //   document.querySelector('#root')
 //   );
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App'
+
+ReactDOM.render(<App />, document.getElementById('root'));

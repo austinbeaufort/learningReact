@@ -237,3 +237,84 @@ import App from "./App";
 //         )
 //     }
 // }
+
+
+
+// CONDITIONAL RENDERING AND CLASS COMPONENTS AND THIS.STATE
+// class App extends React.Component {
+//     constructor() {
+//         super();
+//         this.state = {
+//             isLoggedIn: true
+//         }
+//     }
+    
+//     render() {
+//         if (this.state.isLoggedIn === true) {
+//             return (
+//                 <div style={{color: 'green'}}>
+//                     <h1>You are currently logged in</h1>
+//                 </div>
+//             )          
+//         }
+//         else {
+//              return (
+//                 <div style={{color: 'red'}}>
+//                     <h1>You are currently logged out</h1>
+//                 </div>
+//             )              
+//         }
+
+//     }
+// }
+
+// export default App
+
+
+// CHANGING STATE
+// import React from "react"
+
+// class App extends React.Component {
+//     constructor() {
+//         super()
+//         this.state = {
+//             count: 0
+//         }
+//         this.handleClick = this.handleClick.bind(this)
+//         this.addTwo = this.addTwo.bind(this)
+//         this.clearCount = this.clearCount.bind(this)
+//     }
+    
+//     clearCount() {
+//         this.setState({count: 0});
+//     }
+    
+//     addTwo() {
+//         this.setState(prevState => {
+//             return {
+//                 count: prevState.count + 2
+//             }
+//         })
+//     }
+    
+//     handleClick() {
+//         this.setState(prevState => {
+//             return {
+//                 count: prevState.count + 1
+//             }
+//         })
+//     }
+    
+//     render() {
+//         return (
+//             <div>
+//                 <h1>{this.state.count}</h1>
+//                 <button onClick={this.handleClick}>Change!</button>
+//                 <button onClick={this.addTwo}> Add Two! </button>
+//                 <button onClick={this.clearCount}> Clear Count </button>
+//             </div>
+//         )
+//     }
+// }
+
+// export default App

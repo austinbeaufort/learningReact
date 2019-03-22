@@ -2,7 +2,8 @@
 // https://codepen.io/tinyhatcoding/pen/oVQPGP
 
 
-// JAVASCRIPT REFRESHER
+// ******* JAVASCRIPT ES6 REFRESHER ********
+
 // const printMyName = name => {
 //     console.log(name);
 // }
@@ -64,4 +65,40 @@
 // const newNumbers = [...numbers, 4];
 // console.log(newNumbers);
 
+// const person = {
+//     name: 'austin'
+// }
+
+// const newPerson = {
+//     ...person,
+//     age: 28
+// }
+
+// console.log(newPerson);
+
 // REST => USED TO MERGE A LIST OF FUNCTION ARGUMENTS INTO AN ARRAY.
+
+// const filter = (...args) => {
+//     return args.filter(el => el === 1);
+// }
+
+// console.log(filter(1, 2, 3));
+
+
+// DESTRUCTURING
+// [a, b] = ['hello', 'max'];
+// console.log(a, b);
+
+
+// const numbers = [1, 2, 3];
+// [num1, num2] = numbers;
+// console.log(num1, num2);
+
+
+
+// ARRAY FUNCTIONS
+
+// const numbers = [1, 2, 3];
+
+// const doubleNumArray = numbers.map(number => number * 2);
+// console.log(doubleNumArray);

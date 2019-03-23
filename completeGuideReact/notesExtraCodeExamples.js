@@ -102,3 +102,4 @@
 
 // const doubleNumArray = numbers.map(number => number * 2);
 // console.log(doubleNumArray);
+

@@ -23,14 +23,12 @@ deleteCharHandler = index => {
 
 render() {
 
-  const charList = this.state.userInput.split('').map((ch, index) => {
-    return (
-      <Char 
-      character={ch} 
-      key={index} 
-      clicked={() => this.deleteCharHandler(index)}/>
-    )
-  });
+  let charList = this.state.userInput.split('').map((ch, index) => {
+    return <Char 
+    clicked={() => this.deleteCharHandler(index)} 
+    character={ch} 
+    key={index} />
+  })
 
   return (
     <div className="App">

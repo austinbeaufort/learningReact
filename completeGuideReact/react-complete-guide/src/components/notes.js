@@ -79,3 +79,5 @@ render()
 // do cause side effects , don't update state
 
 
+// multiple JSX elements can sit next to each other in,
+// top level if put into an array separated with commas.

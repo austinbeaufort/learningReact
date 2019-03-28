@@ -103,3 +103,13 @@
 // const doubleNumArray = numbers.map(number => number * 2);
 // console.log(doubleNumArray);
 
+
+
+
+// PLANNING A REACT APP
+
+// 1. COMPONENT TREE / COMPONENT STRUCTURE
+
+// 2. APPLICATION STATE (DATA)
+
+// 3. COMPONENTS VS. CONTAINERS

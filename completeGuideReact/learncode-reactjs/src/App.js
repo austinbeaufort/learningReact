@@ -9,21 +9,19 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      name: "Austin"
-    }
+      title: "Welcome"
+    };
+  }
+
+  changeTitle(title) {
+    this.setState({title});
   }
 
   render() {
-    setTimeout(() => {
-      this.setState({
-        name: 'Tyler'
-      });
-    }, 1000);
-    
+
     return (
       <div className="App">
-        {this.state.name}
-        <Header />
+        <Header changeTitle={this.changeTitle.bind(this)} title={this.state.title}/>
         <Footer />
       </div>
     );
